@@ -1,13 +1,10 @@
 import './App.css';
-import Header from './Components/Header';
-import Form from './Components/Form';
-// import GoalList from './Components/GoalList';
-import { useState } from 'react';
-import bg from './Photos/bg.PNG';
-
+// import { useState } from 'react';
+import Calculator from './Components/Calculator';
 function App() {
    return (
-    <div className="container" style={{ backgroundImage: `url(${bg})` }} >
+    <div className="container" >
+      <Calculator/>
      </div>
     
   );
